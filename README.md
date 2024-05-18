@@ -2,29 +2,28 @@
 
 ## Useful Information About Me
 
-**The Basics**
+### The Basics
 
-- My name is Curtisha It however I prefer to go by Tish.
+- My name is **Curtisha It** however I prefer to go by **Tish**.
 - I have done a few MOOCs and a Python Kickstarter with CFG
 - I did a Python and Microsoft Azure bootcamp with Firebrand
 
-**My Hobbies & Interests**
+### My Hobbies & Interests
 - :books: Collecting Special Editions of books :books:
 - :open_book: Reading different genre of books like; Thrillers, Graphic Novels etc. :open_book:
 - Currently fixated on books where the FMC's are ~~serial killers~~
-- :heartbeat: I tend to struggle with RomComs be it in book form, TV shows or Movies but I'll devour Bridgerton in any form :two_hearts:
+- :heartbeat: I tend to struggle with RomComs be it in book form, TV shows or Movies, but I'll devour Bridgerton in any form :two_hearts:
 - I love reading Manga and Webtoons
 - :tv: I love anime with a passion :lantern:
 - I tend to hyper fixate on different crafts but never finish them
 - :thread: I really like embroidery (*this stems from growing up with a seamstress for a mom*) :sewing_needle:
 
 
-## CFG-Assignments
-### Assignment One
+## CFG-Assignments - Assignment One
 This assignment is all about learning to effectively utilise GitHub for future 
 projects and assignments.
 
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The first task was to create a repository on my local machine**
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task one: Create a repository on my local machine**
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot01.png](Assignment1Screenshots%2FScreenshot01.png)
@@ -32,15 +31,22 @@ projects and assignments.
 </details>
 
 The steps were as follows:
-+ I used `pwd` to determine my current directory.
-+ Then made a new directory using `mkdir <CFG-Assignments>`.
-+ `cd <CFG-Assignments>` took me into this newly created directory.
-+ I used `git init` to initialise a repository
-+ `git status` then showed me that my repo was initialised.
-+ I was in the master branch, and hadn't made any changes so there was nothing to commit.
++ Determine current directory using: `pwd`
++ Create a new project directory using `mkdir <ProjectName>`
++ Moving into the directory using`cd <ProjectName>`
++ Initialise the project as a git repo using: `git init`
++ Verify the repo is initialised using `git status`
 
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task two: Create a repository on GitHub**
+<details><summary>Click for screenshot</summary>
 
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The Second task involved making my first commit in order to push my repository**
+![Screenshot03.png](Assignment1Screenshots%2FScreenshot03.png)
+
+</details>
+
+I was able to create a new private repository on GitHub
+
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task three: Create a commit and push to my GitHub repository**
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot02.png](Assignment1Screenshots%2FScreenshot02.png)
@@ -48,22 +54,16 @@ The steps were as follows:
 </details>
 
 The steps were as follows:
-+ I used `nano` to make my first file which in this instance was a README.md
-+ `git status` then showed I had one commit in the form of the README.md
-+ `git add <README.md>` allowed me to stage my file for committing 
-+ `git commit -m` allowed me to commit my file with a description 
-+ `git branch -M` renamed 'master' to 'main'
-+ `git remote add origin <https...>` and `git push -u origin main` allowed my local commits to the repository on GitHub
++ Create a README.md file using `nano README.md`
++ Identify the new READMD.md file is currently unstaged using `git status`
++ Stage the file for committing using `git add README.md` 
++ Create a commit with commit message using `git commit -m "Commit message"` 
++ Rename current branch to "main" using `git branch -M main`
++ Add the GitHub Repository and track it using `git remote add origin <https...>` 
++ Push the commit to the GitHub main branch using `git push -u origin main`
 
-This shows successful push of the repository
-<details><summary>Click for screenshot</summary>
 
-![Screenshot03.png](Assignment1Screenshots%2FScreenshot03.png)
-
-</details>
-I was able to set the newly pushed repository as private and finally click create a new repository.
-
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The Third task involved using PyCharm and cloning from my remote repository**
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task four: Clone the GitHub repository using PyCharm**
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot04.png](Assignment1Screenshots%2FScreenshot04.png)
@@ -71,10 +71,10 @@ I was able to set the newly pushed repository as private and finally click creat
 </details>
 
 The steps were as follows:
-+ I needed to choose VCS|Get from Version Control in the main menu, then choose GitHub.
-+ I was then able to log in to GitHub and clone my repository.
++ From the main menu, click VCS -> Get from Version Control -> GitHub.
++ Log in to GitHub and clone the repository.
 
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The Fourth task was making a py file and using `.gitignore`**
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task five: Create a python file and use `.gitignore`**
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot05.png](Assignment1Screenshots%2FScreenshot05.png)
@@ -82,75 +82,84 @@ The steps were as follows:
 </details>
 
 The steps were as follows:
-+ I made a py file titled greetings.py then used `git status` to track the state of my files
-+ This showed the created py as well as a .idea/
-+ I created a new file titled `.gitignore` and added .idea/ into it as it wasn't a relevant file
-+ I then used `git add .` to stage all my changes 
++ Create a new python file e.g. greetings.py
++ View current state of the git repo using `git status`
++ Identify the newly created python file along with a `.idea` folder
++ Create a new file called `.gitignore`
++ Add `.idea` to the `.gitignore` file to tell git to ignore the folder and avoid tracking it
++ Add all new files and changes using `git add .` 
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot06.png](Assignment1Screenshots%2FScreenshot06.png)
 
 </details>
 
-+ I used `git status` once more in order to track my changes.
-+ `git commit -m` allowed me to commit my files with a description
++ Identify changed staged for committing using: `git status`
++ Commit the changes using `git commit -m "Commit message"`
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot07.png](Assignment1Screenshots%2FScreenshot07.png)
 
 </details>
 
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The Fifth task shows the use of `git push`**
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task six: Make use of `git push`**
+
+The steps were as follows:
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot08.png](Assignment1Screenshots%2FScreenshot08.png)
 
 </details>
 
-The steps were as follows:
-+ I used `git push` in order to push my newly created files from my local repository to my remote repository.
-The changes can be successfully viewed here;
+Push the latest commits to GitHub from the local repository using `git push`
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot09.png](Assignment1Screenshots%2FScreenshot09.png)
 
 </details>
 
-+ I wanted to make my greetings.py file interactive
+Refresh the GitHub page to see newly added files from the commits
+
+The changes can be successfully viewed here:
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot10.png](Assignment1Screenshots%2FScreenshot10.png)
 
 </details>
 
-+ I've made my changes, and I'm now ready to commit them
-<details><summary>Click for screenshot</summary>
+Make another change to the python file `greetings.py` to make it interactive
+
+<details><summary>Click for screenshots</summary>
 
 ![Screenshot11.png](Assignment1Screenshots%2FScreenshot11.png)
-
-</details>
-+ Using the main menu tab in my IDE I selected Git then Push, selected all my changes and used my commit button to add my commit message and pushed my changes.
-<details><summary>Click for screenshot</summary>
-
 ![Screenshot12.png](Assignment1Screenshots%2FScreenshot12.png)
 
 </details>
 
-This shows the differences in the changes made to my greetings.py file
++ Add and commit the change via pycharm rather than through the terminal
++ From the main menu select Git -> Push
+
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot13.png](Assignment1Screenshots%2FScreenshot13.png)
 
 </details>
 
-This shows updated commits on my remote repository
+This shows the differences in the changes made to my greetings.py file
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot14.png](Assignment1Screenshots%2FScreenshot14.png)
 
 </details>
 
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The sixth task shows the use of branches**
+This shows updated commits on my remote repository
+
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task seven: Make use of branches**
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot15.png](Assignment1Screenshots%2FScreenshot15.png)
@@ -158,27 +167,29 @@ This shows updated commits on my remote repository
 </details>
 
 The steps were as follows:
-+ `git branch` lists the branches currently created. In the case main is the only one
-+ `git checkout -b <branch1>` allowed me to make and name a new branch titled branch1 and immediately switch into it.
-+ Using `git branch` again lists branch1 and main the <*> indicates which branch I'm currently in.
-+ I then created a second py file titled farewell.py inside branch1
-+ `git status` shows the untracked file.
++ List the branches that currently exist using `git branch`
++ In the case main is the only branch that exists
++ Create and switch to a new branch called `branch1` using `git checkout -b <branch1>`
++ List the existing branches again using `git branch`
++ The "*" indicates which the repository is currently on 
++ Create a new python file in the `branch1` branch. E.g. `farewell.py`
++ Show the untracked file using `git status`
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot16.png](Assignment1Screenshots%2FScreenshot16.png)
 
 </details>
 
-+ I used `push -uf origin <branch1>` to create and update the remote branch1 with my new commits
+Once the files are committed create and push to a new branch using `push -uf origin <BranchName>`
 
-This shows a newly created pull request on GitHub
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot17.png](Assignment1Screenshots%2FScreenshot17.png)
 
 </details>
 
-This shows the merging of the pull request to the main branch
+Create a new Pull Request on GitHub to merge the new commits/branch to the main branch
+
 <details><summary>Click for screenshots</summary>
 
 ![Screenshot18.png](Assignment1Screenshots%2FScreenshot18.png)
@@ -187,39 +198,46 @@ This shows the merging of the pull request to the main branch
 
 </details>
 
-This shows the created branch live in the remote repository
+The Pull Request allows the changes to be reviewed and then merged to the main branch
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot21.png](Assignment1Screenshots%2FScreenshot21.png)
 
 </details>
 
-+ In order to pull the edited branch1 changes to the main branch on my local repository.
-+ I first needed to switch back to the main branch using `git checkout main`
+Once the Pull Request has been merged the new files exist on the main branch
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot22.png](Assignment1Screenshots%2FScreenshot22.png)
 
 </details>
 
-This screenshot shows changes in my remote repository could be pulled down into my main branch on my local repository
-using built-in system on pycharm 
+In the local repository switch to the main branch using `git checkout main`
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot23.png](Assignment1Screenshots%2FScreenshot23.png)
 
 </details>
 
-I chose to use git pull in order to pull my changes to the main branch
++ Initially the new file is missing from the main branch
++ The blue arrow indicates that there are changes upstream ready to pull in.
++ These changes can be pulled into the main branch using the Pycharm interface
+
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot24.png](Assignment1Screenshots%2FScreenshot24.png)
 
 </details>
 
-![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Bonus: I wanted to demonstrate the built-in push system on pycharm**
++ Alternatively the changes can be pulled in via the terminal
++ After pulling the changes, the new files now exist on the local main branch
 
-+ In order to do this I made some changes to my farewell.py file and pushed it
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Bonus: Using Pycharm to push/pull**
+
+In order to do this I made some changes to my farewell.py file and pushed it
 <details><summary>Click for screenshots</summary>
 
 ![Screenshot25.png](Assignment1Screenshots%2FScreenshot25.png)
@@ -228,7 +246,7 @@ I chose to use git pull in order to pull my changes to the main branch
 
 </details>
 
-+ And finally pulled my changes to update my local repository
+And finally pulled my changes to update my local repository
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot28.png](Assignment1Screenshots%2FScreenshot28.png)
