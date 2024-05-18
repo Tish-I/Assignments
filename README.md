@@ -32,12 +32,12 @@ projects and assignments.
 </details>
 
 The steps were as follows:
-I used `pwd` to determine my current directory.
-Then made a new directory using `mkdir <CFG-Assignments>`.
-`cd <CFG-Assignments>` took me into this newly created directory.
-I used `git init` to initialise a repository
-`git status` then showed me that my repo was initialised, and I was in the master branch
-and hadn't made any changes so there was nothing to commit.
++ I used `pwd` to determine my current directory.
++ Then made a new directory using `mkdir <CFG-Assignments>`.
++ `cd <CFG-Assignments>` took me into this newly created directory.
++ I used `git init` to initialise a repository
++ `git status` then showed me that my repo was initialised.
++ I was in the master branch, and hadn't made any changes so there was nothing to commit.
 
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The Second task involved making my first commit in order to push my repository**
@@ -48,12 +48,12 @@ and hadn't made any changes so there was nothing to commit.
 </details>
 
 The steps were as follows:
-I used `nano` to make my first file which in this instance was a README.md
-`git status` then showed I had one commit in the form of the README.md
-`git add <README.md>` allowed me to stage my file for committing 
-`git commit -m` allowed me to commit my file with a description 
-`git branch -M` renamed 'master' to 'main'
-`git remote add origin <https...>` and `git push -u origin main` allowed my local commits to the repository on GitHub
++ I used `nano` to make my first file which in this instance was a README.md
++ `git status` then showed I had one commit in the form of the README.md
++ `git add <README.md>` allowed me to stage my file for committing 
++ `git commit -m` allowed me to commit my file with a description 
++ `git branch -M` renamed 'master' to 'main'
++ `git remote add origin <https...>` and `git push -u origin main` allowed my local commits to the repository on GitHub
 
 This shows successful push of the repository
 <details><summary>Click for screenshot</summary>
@@ -71,8 +71,8 @@ I was able to set the newly pushed repository as private and finally click creat
 </details>
 
 The steps were as follows:
-I needed to choose VCS|Get from Version Control in the main menu, then choose GitHub.
-I was then able to log in to GitHub and clone my repository.
++ I needed to choose VCS|Get from Version Control in the main menu, then choose GitHub.
++ I was then able to log in to GitHub and clone my repository.
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The Fourth task was making a py file and using `.gitignore`**
 <details><summary>Click for screenshot</summary>
@@ -81,18 +81,19 @@ I was then able to log in to GitHub and clone my repository.
 
 </details>
 
-I made a py file titled greetings.py then used `git status` to track the state of my files
-This showed the created py as well as a .idea/
-I created a new file titled `.gitignore` and added .idea/ into it.
-I then used `git add .` to stage all my changes 
+The steps were as follows:
++ I made a py file titled greetings.py then used `git status` to track the state of my files
++ This showed the created py as well as a .idea/
++ I created a new file titled `.gitignore` and added .idea/ into it as it wasn't a relevant file
++ I then used `git add .` to stage all my changes 
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot06.png](Assignment1Screenshots%2FScreenshot06.png)
 
 </details>
 
-I used `git status` once more in order to track my changes.
-`git commit -m` allowed me to commit my files with a description
++ I used `git status` once more in order to track my changes.
++ `git commit -m` allowed me to commit my files with a description
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot07.png](Assignment1Screenshots%2FScreenshot07.png)
@@ -105,7 +106,9 @@ I used `git status` once more in order to track my changes.
 ![Screenshot08.png](Assignment1Screenshots%2FScreenshot08.png)
 
 </details>
-I used `git push` in order to push my newly created files from my local repository to my remote repository.
+
+The steps were as follows:
++ I used `git push` in order to push my newly created files from my local repository to my remote repository.
 The changes can be successfully viewed here;
 <details><summary>Click for screenshot</summary>
 
@@ -113,20 +116,20 @@ The changes can be successfully viewed here;
 
 </details>
 
-I wanted to make my greetings.py file interactive
++ I wanted to make my greetings.py file interactive
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot10.png](Assignment1Screenshots%2FScreenshot10.png)
 
 </details>
 
-I've made my changes, and I'm now ready to commit them
++ I've made my changes, and I'm now ready to commit them
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot11.png](Assignment1Screenshots%2FScreenshot11.png)
 
 </details>
-Using the main menu tab in my IDE I selected Git then Push, selected all my changes and used my commit button to add my commit message and pushed my changes.
++ Using the main menu tab in my IDE I selected Git then Push, selected all my changes and used my commit button to add my commit message and pushed my changes.
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot12.png](Assignment1Screenshots%2FScreenshot12.png)
@@ -155,18 +158,18 @@ This shows updated commits on my remote repository
 </details>
 
 The steps were as follows:
-`git branch` lists the branches currently created. In the case main is the only one
-`git checkout -b <branch1>` allowed me to make and name a new branch titled branch1 and immediately switch into it.
-Using `git branch` again lists branch1 and main the <*> indicates which branch I'm currently in.
-I then created a second py file titled farewell.py inside branch1
-`git status` shows the untracked file.
++ `git branch` lists the branches currently created. In the case main is the only one
++ `git checkout -b <branch1>` allowed me to make and name a new branch titled branch1 and immediately switch into it.
++ Using `git branch` again lists branch1 and main the <*> indicates which branch I'm currently in.
++ I then created a second py file titled farewell.py inside branch1
++ `git status` shows the untracked file.
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot16.png](Assignment1Screenshots%2FScreenshot16.png)
 
 </details>
 
-I used `push -uf origin <branch1>` to create and update the remote branch1 with my new commits
++ I used `push -uf origin <branch1>` to create and update the remote branch1 with my new commits
 
 This shows a newly created pull request on GitHub
 <details><summary>Click for screenshot</summary>
@@ -176,7 +179,7 @@ This shows a newly created pull request on GitHub
 </details>
 
 This shows the merging of the pull request to the main branch
-<details><summary>Click for screenshot</summary>
+<details><summary>Click for screenshots</summary>
 
 ![Screenshot18.png](Assignment1Screenshots%2FScreenshot18.png)
 ![Screenshot19.png](Assignment1Screenshots%2FScreenshot19.png)
@@ -191,8 +194,8 @@ This shows the created branch live in the remote repository
 
 </details>
 
-In order to pull the edited branch1 changes to the main branch on my local repository.
-I first needed to switch back to the main branch using `git checkout main`
++ In order to pull the edited branch1 changes to the main branch on my local repository.
++ I first needed to switch back to the main branch using `git checkout main`
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot22.png](Assignment1Screenshots%2FScreenshot22.png)
@@ -214,9 +217,10 @@ I chose to use git pull in order to pull my changes to the main branch
 
 </details>
 
-I wanted to demonstrate the built-in push system on pycharm
-In order to do this I made some changes to my farewell.py file and pushed it
-<details><summary>Click for screenshot</summary>
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Bonus: I wanted to demonstrate the built-in push system on pycharm**
+
++ In order to do this I made some changes to my farewell.py file and pushed it
+<details><summary>Click for screenshots</summary>
 
 ![Screenshot25.png](Assignment1Screenshots%2FScreenshot25.png)
 ![Screenshot26.png](Assignment1Screenshots%2FScreenshot26.png)
@@ -224,7 +228,7 @@ In order to do this I made some changes to my farewell.py file and pushed it
 
 </details>
 
-And finally pulled my changes to update my local repository
++ And finally pulled my changes to update my local repository
 <details><summary>Click for screenshot</summary>
 
 ![Screenshot28.png](Assignment1Screenshots%2FScreenshot28.png)
