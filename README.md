@@ -25,7 +25,12 @@ This assignment is all about learning to effectively utilise GitHub for future
 projects and assignments.
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **The first task was to create a repository on my local machine**
+<details><summary>Click for screenshot</summary>
+
 ![Screenshot01.png](Assignment1Screenshots%2FScreenshot01.png)
+
+</details>
+
 The steps were as follows:
 I used `pwd` to determine my current directory.
 Then made a new directory using `mkdir <CFG-Assignments>`.
