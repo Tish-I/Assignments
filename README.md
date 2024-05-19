@@ -254,6 +254,67 @@ And finally pulled my changes to update my local repository
 </details>
 
 
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task gitignore: Adding a .gitignore file**
+
+The purpose of this task is add a .gitignore file. 
+This file is intended is to tell git to ignore certain files/folders.
+In this case it will be ignoring the folder created by PyCharm which we don't want included in the repository.
+
+The first step is to create a new branch to work on. Then the file can be created and committed to the repository.
+
+```commandline
+# Checkout a new branch
+git checkout -b gitignore
+# Create a new file .gitignore
+nano .gitignore
+# Add it to git to track
+git add .gitignore
+# Commit the file with a suitable commit message
+git commit -m "Adding .gitignore file to avoid tracking .idea folder"
+# Push the commit to GitHub while also creating a new new remote branch called requirements
+git push -uf origin gitignore
+```
+<details><summary>Click for screenshot</summary>
+
+![GitIgnore1.png](Assignment1Screenshots%2FGitIgnore1.png)
+
+</details>
+
+Next a PR is created on GitHub with a descriptive message. 
+This is to allow for code review before merging to the main branch:
+
+<details><summary>Click for screenshot</summary>
+
+![GitIgnore2.png](Assignment1Screenshots%2FGitIgnore2.png)
+
+</details>
+
+The PR was then reviewed and comments were added:
+
+<details><summary>Click for screenshot</summary>
+
+![GitIgnore3.png](Assignment1Screenshots%2FGitIgnore3.png)
+
+</details>
+
+After a successful review, the PR was merged and the local main branch could be updated to pull in the latest changes:
+
+```commandline
+# Switch back to the main branch
+git checkout main
+# Pull the latest changed from GitHub
+git pull
+# print the contents of the .gitignore file to show it exists and contains the .idea folder
+cat .gitignore
+```
+
+<details><summary>Click for screenshot</summary>
+
+![GitIgnore4.png](Assignment1Screenshots%2FGitIgnore4.png)
+
+</details>
+
+
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task Requirements: Adding a requirements.txt file**
 
 The purpose of this task is add a requirements.txt file. 
