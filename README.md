@@ -254,5 +254,61 @@ And finally pulled my changes to update my local repository
 </details>
 
 
+![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task Requirements: Adding a requirements.txt file**
 
+The purpose of this task is add a requirements.txt file. 
+This file is intended is to keep track of any python libraries required for use in a virtual environment.
 
+The first step is to create a new branch to work on. Then the file can be created and committed to the repository.
+
+```commandline
+# Checkout a new branch
+git checkout -b requirements
+# Create a new file requirements.txt
+nano requirements.txt
+# Add it to git to track
+git add requirements.txt
+# Commit the file with a suitable commit message
+git commit -m "Adding placeholder python requirements.txt file"
+# Push the commit to GitHub while also creating a new new remote branch called requirements
+git push -uf origin requirements
+```
+<details><summary>Click for screenshot</summary>
+
+![Requirements1.png](Assignment1Screenshots%2FRequirements1.png)
+
+</details>
+
+Next a PR is created on GitHub with a descriptive message. 
+This is to allow for code review before merging to the main branch:
+
+<details><summary>Click for screenshot</summary>
+
+![Requirements2.png](Assignment1Screenshots%2FRequirements2.png)
+
+</details>
+
+The PR was then reviewed and comments were added:
+
+<details><summary>Click for screenshot</summary>
+
+![Requirements3.png](Assignment1Screenshots%2FRequirements3.png)
+
+</details>
+
+After a successful review, the PR was merged and the local main branch could be updated to pull in the latest changes:
+
+```commandline
+# Switch back to the main branch
+git checkout main
+# Pull the latest changed from GitHub
+git pull
+# print the contents of the requiments.txt file to show it exists
+cat requirements.txt
+```
+
+<details><summary>Click for screenshot</summary>
+
+![Requirements4.png](Assignment1Screenshots%2FRequirements4.png)
+
+</details>
