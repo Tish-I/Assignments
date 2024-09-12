@@ -1,11 +1,11 @@
-# CFG-Degree Assignments
+# Assignments
 
 ## Useful Information About Me
 
 ### The Basics
 
 - My name is  **<sup><u>Curtisha It</sup></u>** however I prefer to go by **<sub><u>Tish</sub></u>**.
-- I have done a few MOOCs and a Python Kickstarter with CFG
+- I have done a few MOOCs and a Python Kickstarter
 - I have also done a Python and Microsoft Azure bootcamp with Firebrand
 
 ### My Hobbies & Interests
@@ -19,22 +19,22 @@
 - :thread: I really like embroidery (*this stems from growing up with a seamstress for a mom*) :sewing_needle:
 
 
-## CFG-Assignments - Assignment One
+## Assignments - Assignment One
 This assignment is all about learning to effectively utilise GitHub for future 
 projects and assignments.
 
 
 ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) **Task One: Create a repository on my local machine**
 
-I created a new repository on my local machine called `CFG-Assignments` which will hold all the work I do as part of the program.
+I created a new repository on my local machine called `Assignments` which will hold all the work I do as part of the program.
 
 ```commandline
 # Determine the current working directory
 pwd
-# Create a new directory which will be the go to folder for CFG assignments
-mkdir CFG-Assignments
+# Create a new directory which will be the go to folder for assignments
+mkdir Assignments
 # Change directory to move into the folder
-cd CFG-Assignments
+cd Assignments
 # Initialise the project as a git repository
 git init
 # Use git status to confirm that the repository has be successfull created
@@ -81,7 +81,7 @@ git commit -m "Adding READMD.md file for usage in project documentation"
 # Ensure the current branch is "main" to be in line with remote main branch
 git branch -M main
 # Add the remote repository to git to track
-git remote add origin https://github.com/Tish-I/CFG-Assignments.git
+git remote add origin https://github.com/Tish-IAssignments.git
 # Push the commits to the main branch on the remote repository
 git push -u origin main
 ```
